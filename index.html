@@ -1,57 +1,99 @@
 <!DOCTYPE html>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="pt">
   <head>
-    <title>Portifólio de Projetos de Ciência de Dados</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
+    <title>Portfólio | Mariana Lira</title>
     <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      .lang-pt,
+      .lang-en {
+        display: none;
+      }
+      .lang-pt.active,
+      .lang-en.active {
+        display: block;
+      }
+      .language-switch {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 9999;
+      }
+      .language-switch button {
+        padding: 0.5rem 1rem;
+        margin-left: 0.5rem;
+        font-weight: bold;
+      }
+    </style>
   </head>
   <body class="is-preload">
-    <!-- Wrapper -->
+    <div class="language-switch">
+      <button onclick="switchLang('pt')">PT</button>
+      <button onclick="switchLang('en')">EN</button>
+    </div>
+
     <div id="wrapper">
-      <!-- Main -->
       <div id="main">
         <div class="inner">
-          <!-- Header -->
-          <header id="header">
-            <a href="index.html" class="logo"><strong>Portifólio de Projetos</strong> de Ciência de Dados</a>
-            <ul class="icons">
-              <li>
-                <a href="https://github.com/marianaliraf" class="icon brands fa-github"
-                  ><span class="label">Github</span></a
-                >
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/mariana-lira-de-farias" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a>
-              </li>
-            </ul>
+          <!-- VERSÃO EM PORTUGUÊS -->
+          <div class="lang-pt active">
+            <header id="header">
+              <a href="index.html" class="logo"
+                ><strong>Portifólio de Projetos</strong> de Ciência de Dados</a
+              >
+              <ul class="icons">
+                <li>
+                  <a
+                    href="https://github.com/marianaliraf"
+                    class="icon brands fa-github"
+                    ><span class="label">Github</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/mariana-lira-de-farias"
+                    class="icon brands fa-linkedin"
+                    ><span class="label">LinkedIn</span></a
+                  >
+                </li>
+              </ul>
+            </header>
 
-          </header>
+            <!-- Section banner -->
+            <section id="banner">
+              <div class="content">
+                <header>
+                  <h1>
+                    Olá, seja muito bem-vindo(a) ao meu portfólio de projetos de
+                    Ciência de Dados
+                  </h1>
+                </header>
+                <p>
+                  Nessa página, eu demonstro minhas habilidades de resolver
+                  problemas utilizando conceitos e ferramentas da Ciência de
+                  Dados, através de projetos com dados públicos. <br />
+                  Você também irá encontrar minhas experiências profissionais,
+                  habilidades, ferramentas e conceitos envolvendo a Ciência de
+                  Dados. <br />
+                  Sinta-se à vontade para entrar em contato através dos links no
+                  final da página.
+                </p>
+              </div>
+              <span class="image object">
+                <img
+                  src="images/perfil.jpg"
+                  alt="Foto de perfil"
+                  width="400px"
+                  height="450px"
+                />
+              </span>
+            </section>
 
-          <!-- Banner -->
-          <section id="banner">
-            <div class="content">
-              <header>
-                <h1>Olá, seja muito bem-vindo(a) ao meu portifólio de projetos de Ciência de Dados</h1>
-              </header>
-              <p>Nessa página, eu demonstro minhas habilidades de resolver problemas utilizando conceitos e ferramentas da Ciência de Dados, através de projetos com dados públicos. </br>
-              Você também irá encontrar, minhas experiências profissionais, habilidades, ferramentas e conceitos envolvendo a Ciência de Dados. </br> Sinta-se a vontade para entrar em contato através dos links no final da página</p>
-            </div>
-            <span class="image object">
-              <img src="images/perfil.jpg" alt="" width="400px" height="450px"/>
-            </span>
-          </section>
-
-		  <section>
-			<header class="main">
+            	<header class="main">
 				<h1>Sobre mim</h1>
 			</header>
 
@@ -237,7 +279,7 @@
               </article>
           
               <article>
-                <a href="#" class="image"
+                <a href="https://github.com/marianaliraf/projeto-mineracao-dados-educacionais-ideb" class="image"
                   ><img src="images/ideb.jpg" alt=""
                 /></a>
                 <h3>Análise dos principais fatores que influenciam o Índice de Educação da Básica (IDEB)</h3>
@@ -277,12 +319,307 @@
               <li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/mariana-lira-de-farias">LinkedIn</a></li>
             </ul>
           </section>
+          </div>
+
+          <!-- VERSÃO EM INGLÊS -->
+          <div class="lang-en">
+            <header id="header">
+              <a href="index.html" class="logo"
+                ><strong>Project Portfolio</strong> | Mariana Lira</a
+              >
+              <ul class="icons">
+                <li>
+                  <a
+                    href="https://github.com/marianaliraf"
+                    class="icon brands fa-github"
+                    ><span class="label">GitHub</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/mariana-lira-de-farias"
+                    class="icon brands fa-linkedin"
+                    ><span class="label">LinkedIn</span></a
+                  >
+                </li>
+              </ul>
+            </header>
+
+            <section id="banner">
+              <div class="content">
+                <header>
+                  <h1>Hello! Welcome to my Data Science Project Portfolio</h1>
+                </header>
+                <p>
+                  Here, I demonstrate my skills in solving business problems
+                  using Data Science tools and concepts. This portfolio features
+                  real-world public data projects, as well as my professional
+                  experience, technical skills, and tools. Feel free to reach
+                  out through the links at the bottom.
+                </p>
+              </div>
+              <span class="image object">
+                <img
+                  src="images/perfil.jpg"
+                  alt="Mariana Lira"
+                  width="400px"
+                  height="450px"
+                />
+              </span>
+            </section>
+
+            <section>
+              <header class="main">
+                <h1>About Me</h1>
+              </header>
+              <h2>My name is Mariana Lira</h2>
+              <p>
+                I hold a degree in Information Systems and an MBA in Business
+                Intelligence. I'm currently pursuing a Master's in Computer
+                Science with a focus on Multi-View Data Clustering. I work as a
+                Data Scientist/Analyst in the tax field and teach
+                university-level courses in Computer Science and Systems
+                Analysis.
+              </p>
+              <p>
+                I have experience in end-to-end data solutions: from ETL
+                pipelines to predictive modeling and dashboard/report
+                generation. I also build personal projects to enhance my skills
+                and explore new tools.
+              </p>
+            </section>
+
+            <section>
+              <header class="major">
+                <h2>Skills</h2>
+              </header>
+              <div class="features">
+                <article>
+                  <span class="icon solid fa-signal"></span>
+                  <div class="content">
+                    <h3>Programming, Databases & BI</h3>
+                    <ul>
+                      <li>Python for data analysis</li>
+                      <li>Web scraping</li>
+                      <li>SQL (PostgreSQL, Oracle, MySQL, MongoDB)</li>
+                      <li>Pentaho Data Integration</li>
+                      <li>SASS</li>
+                    </ul>
+                  </div>
+                </article>
+                <article>
+                  <span class="icon solid fa-chart-area"></span>
+                  <div class="content">
+                    <h3>Statistics & Machine Learning</h3>
+                    <ul>
+                      <li>
+                        Descriptive stats, regressions, clustering,
+                        learn-to-rank
+                      </li>
+                      <li>
+                        Data balancing, feature selection, dimensionality
+                        reduction
+                      </li>
+                      <li>
+                        Metrics: RMSE, MAE, AUC, ROC, Lift, Precision, Recall
+                      </li>
+                      <li>Libs: Scikit-learn, TensorFlow, PyTorch, Scipy</li>
+                    </ul>
+                  </div>
+                </article>
+                <article>
+                  <span class="icon solid fa-chart-area"></span>
+                  <div class="content">
+                    <h3>Data Visualization</h3>
+                    <ul>
+                      <li>Matplotlib, Seaborn</li>
+                      <li>Power BI, Tableau, SSRS</li>
+                    </ul>
+                  </div>
+                </article>
+                <article>
+                  <span class="icon solid fa-signal"></span>
+                  <div class="content">
+                    <h3>Software Engineering</h3>
+                    <ul>
+                      <li>Git, GitHub, GitLab</li>
+                      <li>Streamlit, Flask, REST APIs</li>
+                      <li>Deployment: Heroku</li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section>
+              <header class="main">
+                <h1>Data Science Projects</h1>
+              </header>
+              <div class="posts">
+                <article>
+                  <a
+                    href="https://github.com/marianaliraf/health_insurance"
+                    class="image"
+                  >
+                    <img
+                      src="images/health_insurance.jpg"
+                      alt="Health Insurance API"
+                    />
+                  </a>
+                  <h3>
+                    Health Insurance – Propensity to Purchase Prediction API
+                  </h3>
+                  <p>This project aims to predict the propensity of customers to acquire supplementary health insurance based on demographic, behavioral, and insurance history data. To achieve this, a machine learning model and a Flask API were developed and deployed on Heroku.</p>
+                  <p>The API receives customer data, performs preprocessing, and returns a conversion propensity score. The model was trained using public data from the Kaggle competition "Health Insurance Cross Sell Prediction." Additionally, the solution includes integration with Google Sheets to facilitate use in educational and corporate environments.</p>
+
+                  <h4>Tools used:</h4>
+                  <ul>
+                    <li>Git and GitHub</li>
+                    <li>Python (Pandas, Scikit-Learn, Logistic Regression)</li>
+                    <li>Google Colab and Jupyter Notebook</li>
+                    <li>Flask</li>
+                    <li>Heroku</li>
+                    <li>Google Apps Script</li>
+                  </ul>
+                  <ul class="actions">
+                    <li>
+                      <a
+                        href="https://github.com/marianaliraf/health_insurance"
+                        class="button"
+                        >Learn More</a
+                      >
+                    </li>
+                  </ul>
+                </article>
+                <article>
+                  <a
+                    href="https://github.com/marianaliraf/rossman_store_sales"
+                    class="image"
+                  >
+                    <img src="images/rossmann.jpg" alt="Rossmann Forecast" />
+                  </a>
+                  <h3>Rossmann Sales Forecast – ML API</h3>
+                  <p>
+                    This project consists of building a Flask API integrated with a machine learning model trained to forecast sales for Rossmann stores based on historical data and features such as promotions, holidays, store type, and competitor distance.
+                  </p>
+
+                <h4>Tools used:</h4>
+                <ul>
+                  <li>Git e Github.</li>
+                  <li>Python (Pandas, NumPy, Scikit-Learn, XGBoost)</li>
+                  <li>Google Colab e Jupyter Notebook.</li>
+                  <li>Flask</li>
+                  <li>Heroku</li>
+                  <li>Pickle</li>
+                </ul>
+
+                  
+
+                  <ul class="actions">
+                    <li>
+                      <a
+                        href="https://github.com/marianaliraf/rossman_store_sales"
+                        class="button"
+                        >Learn More</a
+                      >
+                    </li>
+                  </ul>
+                </article>
+                <article>
+                  <a
+                    href="https://github.com/marianaliraf/fome_zero"
+                    class="image"
+                  >
+                    <img src="images/fome-zero.jpg" alt="Fome Zero" />
+                  </a>
+                  <h3>Fome Zero Dashboard – Restaurant Insights</h3>
+                  <p>
+                    This project features an interactive dashboard developed with Streamlit, using Plotly and Altair visualizations to explore detailed data from restaurants across different countries. The focus includes ratings, types of cuisine, average cost, and online presence (delivery and reservations).
+                  </p>
+                  <p>
+                    The goal is to simulate a comparative restaurant analytics platform, enabling insights to support decision-making in food service, tourism, and gastronomic experience.
+                  </p>
+
+                <h4>Tools used:</h4>
+                <ul>
+                  <li>Git e Github.</li>
+                  <li>Python (Pandas, Numpy)</li>
+                  <li>Google Colab.</li>
+                  <li>Streamlit</li>
+                  <li>Plotly Express, Altair, Pillow (PIL)</li>
+                </ul>
+                  <ul class="actions">
+                    <li>
+                      <a
+                        href="https://fomezero-portifolio-mariana-lira.streamlit.app"
+                        class="button"
+                        >Learn More</a
+                      >
+                    </li>
+                  </ul>
+                </article>
+                <article>
+                  <a href="https://github.com/marianaliraf/projeto-mineracao-dados-educacionais-ideb" class="image">
+                    <img src="images/ideb.jpg" alt="IDEB" />
+                  </a>
+                  <h3>Education Index Analysis (IDEB)</h3>
+                  <p>
+                    Uses ML and feature selection to identify key factors
+                    affecting educational performance in Brazil. Based on
+                    socio-economic data and school census. Offers actionable
+                    insights for public policies.
+                  </p>
+
+                <h4>Tools used:</h4>
+                <ul>
+                  <li>Git e Github.</li>
+                  <li>Python, Pandas, ScikitLearn</li>
+                  <li>Google Colab.</li>
+                  <li>SVM, KNN, Random Forest, Naive Bayes, Logistic Regression</li>
+                  <li>Feature selection techniques</li>
+                </ul>
+                  <ul class="actions">
+                    <li>
+                      <a
+                        href="https://github.com/marianaliraf/projeto-mineracao-dados-educacionais-ideb"
+                        class="button"
+                        >Learn More</a
+                      >
+                    </li>
+                  </ul>
+                </article>
+              </div>
+            </section>
+
+            <section>
+              <header class="major">
+                <h2>Contact</h2>
+              </header>
+              <p>Feel free to connect!</p>
+              <ul class="contact">
+                <li class="icon solid fa-envelope">
+                  <a href="#">marilira1998@gmail.com</a>
+                </li>
+                <li class="icon brands fa-linkedin">
+                  <a href="https://www.linkedin.com/in/mariana-lira-de-farias"
+                    >LinkedIn</a
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
         </div>
       </div>
+    </div>
 
-    
+    <script>
+      function switchLang(lang) {
+        document.querySelector(".lang-pt").classList.remove("active");
+        document.querySelector(".lang-en").classList.remove("active");
+        document.querySelector(`.lang-${lang}`).classList.add("active");
+      }
+    </script>
 
-    <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>
